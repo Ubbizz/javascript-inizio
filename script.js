@@ -126,13 +126,115 @@ true === false; //false
 
 //ESERCIZI
 //1
-!(true || true); //false
+//!(true || true); //false
 //2
-!(true || ("pippo" === "pluto")); //false, guarda l'operatore logico
+//!(true || ("pippo" === "pluto")); //false, guarda l'operatore logico
 //3
-!((12 % 5) === 3) //true
+//!((12 % 5) === 3) //true
 //4
-("ciao mondo" !== ("ciao" + " " + "mondo")) //false
+//("ciao mondo" !== ("ciao" + " " + "mondo")) //false
+
+
+
+//VARIABILE
+
+
+
+//NON USARE MAI "VAR" USA "LET"
+
+// var firstNumber = 5; // Prima lettera maiuscola per ogni parola aggiuntiva alla prima es: firstSecondThirdFourth
+// console.log(firstNumber);
+
+// var secondNumber = 10;
+
+// var sumOfNumbers = firstNumber + secondNumber;
+// console.log(sumOfNumbers);
+
+// var empty; //undefined
+
+
+//LET
+
+// let firstNumber = 5; // Prima lettera maiuscola per ogni parola aggiuntiva alla prima es: firstSecondThirdFourth
+// // console.log(firstNumber);
+
+// let secondNumber = 10;
+
+// let sumOfNumbers = firstNumber + secondNumber;
+// // console.log(sumOfNumbers);
+
+// let empty; //undefined
+
+
+// secondNumber = 20;
+
+// let newSumOfNumbers = firstNumber + secondNumber
+// // console.log(newSumOfNumbers);
+
+// let firstName = "Mattia";
+// let hello = "Ciao" + " " + firstName
+// // console.log(hello); //le variabili non han bisogno di virgolette
+
+
+
+//DIFFERENZA TRA LET E VAR:
+
+
+
+// let pluto = pippo + 30
+// let pippo = 5
+// console.log(pluto);
+
+// var paperoga = paperino + 30;
+// var paperino = 5;
+// console.log(paperoga); //il codice esegue dall'alto verso il basso dunque non vede ancora il valore di paperino considerandolo ''undefined'' dunque meglio avere un messaggio di errore nel log di console che incasinarsi e non capire dove sia il problema
+
+
+//CONSTANTI
+
+const qui = true;
+const quo = false;
+const qua = qui && quo; 
+
+// qui = false; //non puoi cambiare il valore della costante "qui" ti da errore, ricorda dall'alto verso il basso
+
+// console.log(qua);
+
+
+//TIPI DI DATI
+
+//type of
+
+
+const variabile1 = 3;
+console.log(typeof variabile1); //type of "number"
+
+const variabile2 = true;
+console.log(typeof variabile2); //true e false dan boolean
+
+const variabile3 = "axia";
+console.log(typeof variabile3); //stringa
+
+const variabile4 = typeof variabile1;
+console.log(" il contenuto di variabile 4 è : " + variabile4 + " e il suo tipo è: " + typeof variabile4);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

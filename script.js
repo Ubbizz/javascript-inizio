@@ -24,10 +24,60 @@ NaN; // Not a number
 undefined // variabile mai stata definita
 null // nullo (variabile vuota)
 
-//OPERATORI LOGICI
+//OPERATORI LOGICI (sempre maiuscoli)
 
-//not
 
-//and
+//NOT (!)
+true; //vera
+!true; //false
 
-//or
+false; //falso
+!false; //vero
+
+// console.log(!false);
+
+
+//AND (&&)
+true && true; //true
+true && false; //false
+false && true; //false
+false && false; //false
+
+//console.log(true && true);
+//console.log(true && false);
+
+
+//OR (||)
+true && true; //true
+true && false; //true
+false && true; //true
+false && false; //false
+
+//console.log(true || true);
+//console.log(true || false);
+//console.log(true || false);
+
+
+//OPERATORI MATEMATICI
+
+//+
+5 + 10; //15
+
+//-
+-3.1; 
+90 - 10; //80
+
+//* moltiplicazione (*)
+6 * 8; //48
+
+// diviso(/)
+9 / 3; //3
+
+// potenza(**)
+2**3 //8
+
+
+
+
+
+

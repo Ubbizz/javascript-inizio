@@ -23,3 +23,11 @@ NaN; // Not a number
 // tipi nulli
 undefined // variabile mai stata definita
 null // nullo (variabile vuota)
+
+//OPERATORI LOGICI
+
+//not
+
+//and
+
+//or

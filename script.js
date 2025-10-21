@@ -206,17 +206,77 @@ const qua = qui && quo;
 //type of
 
 
-const variabile1 = 3;
-console.log(typeof variabile1); //type of "number"
+// const variabile1 = 3;
+// console.log(typeof variabile1); //type of "number"
 
-const variabile2 = true;
-console.log(typeof variabile2); //true e false dan boolean
+// const variabile2 = true;
+// console.log(typeof variabile2); //true e false dan boolean
 
-const variabile3 = "axia";
-console.log(typeof variabile3); //stringa
+// const variabile3 = "axia";
+// console.log(typeof variabile3); //stringa
 
-const variabile4 = typeof variabile1;
-console.log(" il contenuto di variabile 4 è : " + variabile4 + " e il suo tipo è: " + typeof variabile4);
+// const variabile4 = typeof variabile1;
+// console.log(" il contenuto di variabile 4 è : " + variabile4 + " e il suo tipo è: " + typeof variabile4);
+
+// const variabile5 = 5 > 6;
+// console.log(typeof variabile5); //ridà false, che non è un numero come risposta, dunque boolean
+
+// let variabile6;
+// console.log(typeof variabile6); //undefined
+
+// let variabile7 = null
+// console.log(typeof variabile7); //object
+
+// let variabile8 = NaN
+// console.log(typeof variabile8); //Tipo number per qualche arcana ragione
+
+// // javascript è dinamicamente tipato e le variabili prendono il tipo del contenuto che può cambiare nel tempo
+
+// let dynamic;
+// console.log(typeof dynamic);
+
+// dynamic = 5;
+// console.log(typeof dynamic); //ora è number perchè ho dichiarato un valore
+
+// dynamic = "pippo";
+// console.log(typeof dynamic); //ora string 
+
+
+//ALERT
+
+// alert("uagliò")
+
+// const birthdayGirl = "Salma";
+
+// alert("Auguri " + birthdayGirl)
+
+
+//PROMPT
+
+// const age = prompt("Quanti anni hai?")
+
+// console.log(age);
+// console.log(typeof age); //però prompt restituisce il typeof di age in stringa
+
+//CALCOLATRICE BASE
+
+// const first = prompt ("dammi il primo numero");
+// const second = prompt ("dammi il secondo numero");
+
+// const firstToNumber = Number(first); //converte in valore di un dato in "number"
+// const secondoToNumber = Number(second);
+
+// const sum = firstToNumber + secondoToNumber;
+
+// alert("la somma è: " + sum);
+
+
+
+
+
+
+
+
 
 
 

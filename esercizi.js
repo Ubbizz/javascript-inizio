@@ -35,11 +35,11 @@
 
 
 //4
-// const età = prompt("Quanti anni hai?")
+// const age = prompt("Quanti anni hai?");
 
-// const etàNumber = Number(età)
+// const ageNumber = Number(age);
 
-// if (etàNumber >= 18 ) {
+// if (ageNumber >= 18 ) {
 //     alert("Puoi entrare")
 // } else {
 //     alert("Non puoi entrare")
@@ -47,8 +47,9 @@
 
 
 //5
-// let parole = prompt("Dimmi qualcosa a babbo");
+// let words = prompt("Dimmi qualcosa a babbo");
 
-// let paroleMaiuscolo = parole.toUpperCase();
+// let wordsUpperCase = words.toUpperCase();
+//// let wordsUpperCase = words.toLocaleUpperCase(); //Locale prende in considerazione il luogo fisico, magari in altri paesi la conversione in maiuscolo funziona diversamente es. giappo
 
-// alert(paroleMaiuscolo);
+// alert(wordsUpperCase);

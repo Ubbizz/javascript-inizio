@@ -85,9 +85,11 @@
 //ESERCIZI IN AUTONOMIA GUARDALI SULLA REPO DEL PROF
 
 // 22/10 Leggiti il primo e il secondo capitolo di Eloquent Javascript, in fondo al secondo capitolo ci sono 3 esercizi, falli
-// usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai multipli di 7
-// usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai quadrati perfetti
-// vabbè guarda la repo del prof
+// 8) usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai multipli di 7
+// 9) usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai quadrati perfetti
+// 10) chiedi all'utente un numero (positivo) di partenza e poi logga tutti i numeri dal numero dato fino a 0
+// 11) chiedi all'utente due numeri e logga tutti i numeri pari compresi tra i numeri forniti dall'utente
+// 12) chiedi all'utente quanti anni ha e digli quante ore ha gia' vissuto
 
 
 

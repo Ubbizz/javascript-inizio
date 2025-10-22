@@ -85,6 +85,7 @@
 //ESERCIZI IN AUTONOMIA GUARDALI SULLA REPO DEL PROF
 
 // 22/10 Leggiti il primo e il secondo capitolo di Eloquent Javascript, in fondo al secondo capitolo ci sono 3 esercizi, falli
+// ripeti esercizi 6 e 7 con while o dowhile
 // 8) usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai multipli di 7
 // 9) usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai quadrati perfetti
 // 10) chiedi all'utente un numero (positivo) di partenza e poi logga tutti i numeri dal numero dato fino a 0

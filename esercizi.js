@@ -82,6 +82,7 @@
 
 // }
 
+
 //ESERCIZI IN AUTONOMIA GUARDALI SULLA REPO DEL PROF
 
 // 22/10 Leggiti il primo e il secondo capitolo di Eloquent Javascript, in fondo al secondo capitolo ci sono 3 esercizi, falli

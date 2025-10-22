@@ -1,5 +1,6 @@
 //IF -> se la condizione è true (per forza boolean) esegue il codice fra le graffe altrimenti no
 
+
 // const pippo = 5;
 // const pluto = 8;
 
@@ -9,6 +10,7 @@
 
 
 // IF ELSE -> funziona uguale ma se la condizione è false esegue il codice nelle graffe dell"else'
+
 
 // const pippo = 5;
 // const pluto = 3;
@@ -25,10 +27,10 @@
 
 //IF - ELSE If - ELSE -> 
 
+
 // const candy = prompt("quante caramelle hai mangiato ieri?");
 
 // const candyNumber = Number(candy);
-
 
 
 // if (candyNumber === 0) {
@@ -43,6 +45,31 @@
 //     alert("diabete pieno")
 // }
 
+
+//SWITCH (può fare lo stesso lavoro di "if - else")
+
+// const response = prompt("come ti senti oggi?");
+
+// switch (response) {
+//     case "felice": //in case metti tutte le risposte che ti puoi aspettare
+//         alert("bene bene bravo!!!!!!!!!!!!!")
+//         break;
+//     case "triste":
+//         alert("nooooooooooooo")
+//         break;
+//     case "euforico":
+//         alert("non spaziare")
+//         break;
+//     case "arrabbiato":
+//         alert("pure io")
+//         break;
+//     default: //se la risposta non rientra nelle opzioni che hai dato
+//         alert("parla pulito")
+//         break;
+// }
+
+
+//compitino
 
 // const eta = prompt("quanti anni hai?");
 
@@ -158,13 +185,13 @@
 
 // }
 
-for (let i = 0; i < 5; i++) {
-    for (let j = 0; j < 5; j++) {
+// for (let i = 0; i < 5; i++) {
+//     for (let j = 0; j < 5; j++) { //j perchè in ordine alfabetico ma puoi anche fare x y z, dipende da quante dimensioni vuoi usare
 
-        console.log("riga: " + j + " colonna: " + i);
+//         console.log("riga: " + j + " colonna: " + i);
 
-    } //FOR nestati dentro altri for, il 'for' nestato verrà calcolato prima del primo 'for'
-} //finito il codice dentro al 'for' nestato verrà eseguito quello del primo 'for', per poi ritornare al 'for' nestato (pensala come uno spazio bidimensionale)
+//     } //FOR nestati dentro altri for, il 'for' nestato verrà calcolato prima del primo 'for'
+// } //finito il codice dentro al 'for' nestato verrà eseguito quello del primo 'for', per poi ritornare al 'for' nestato (pensala come uno spazio bidimensionale)
 
 
 

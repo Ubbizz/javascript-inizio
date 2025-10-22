@@ -5,11 +5,13 @@
 //5) fate inserire all'utente una stringa e convertitela in maiuscolo (cercare su internet)
 
 //1
+
 // const firstName = prompt("Come ti chiami?");
 // alert("Tanti auguri a " + firstName);
 
 
 //2
+
 // const numberOne = prompt("Dimmi la base");
 // const numberTwo = prompt("Dimmi l'esponente");
 
@@ -21,6 +23,7 @@
 
 
 //3
+
 // const numb = prompt("Dimmi un numero");
 
 // const numbConverted = Number(numb);
@@ -35,6 +38,7 @@
 
 
 //4
+
 // const age = prompt("Quanti anni hai?");
 
 // const ageNumber = Number(age);
@@ -47,9 +51,46 @@
 
 
 //5
+
 // let words = prompt("Dimmi qualcosa a babbo");
 
 // let wordsUpperCase = words.toUpperCase();
 //// let wordsUpperCase = words.toLocaleUpperCase(); //Locale prende in considerazione il luogo fisico, magari in altri paesi la conversione in maiuscolo funziona diversamente es. giappo
 
 // alert(wordsUpperCase);
+
+
+//6 fai un ciclo for che stampi il quadrato dei numeri da 1 a 100
+
+// for (let i = 1; i <= 100; i++) {
+
+//     const square = i ** 2;
+//     console.log(square);
+
+// }
+
+
+//7 fai un ciclo per i numeri da 1 a 100 stampi pari se il numero è pari, e dispari se il numero è dispari
+
+// for (let i = 1; i < 101; i++) {
+
+//     if (i % 2 === 0) {
+//         console.log("pari " + i);
+//     } else {
+//         console.log("dispari " + i);
+//     }
+
+// }
+
+//ESERCIZI IN AUTONOMIA GUARDALI SULLA REPO DEL PROF
+
+// 22/10 Leggiti il primo e il secondo capitolo di Eloquent Javascript, in fondo al secondo capitolo ci sono 3 esercizi, falli
+// usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai multipli di 7
+// usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai quadrati perfetti
+// vabbè guarda la repo del prof
+
+
+
+
+//sito fiero: javascript.info
+//libro Eloquent Javascript

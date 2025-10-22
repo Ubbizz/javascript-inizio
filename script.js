@@ -176,6 +176,17 @@ true === false; //false
 // // console.log(hello); //le variabili non han bisogno di virgolette
 
 
+// let topolino = 5;
+// topolino = topolino + 10;
+
+// topolino += 10; //stessa cosa di "topolino = topolino + 10;" ma scritta più corta
+
+
+// topolino = topolino +1;
+// topolino +=1;
+// topolino++; //aggiunge 1 come sopra, notazione particolare perchè usata spesso
+
+
 
 //DIFFERENZA TRA LET E VAR:
 

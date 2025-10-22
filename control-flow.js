@@ -44,18 +44,18 @@
 // }
    
 
-const eta = prompt("quanti anni hai?");
+// const eta = prompt("quanti anni hai?");
 
-const etaNumber = Number(eta);
+// const etaNumber = Number(eta);
 
-if (eta < 1) {
-    alert("devi ancora nascere?")
-} else if (eta <= 15) {
-    alert("pischellissimo")
-} else if (eta <= 29) {
-    alert("pischello")
-} else if (eta <= 60) {
-    alert("ti ricordi myspace?")
-} if (eta > 60) {
-    alert("come sai usare un computer?")
-}
+// if (eta < 1) {
+//     alert("devi ancora nascere?")
+// } else if (eta <= 15) {
+//     alert("pischellissimo")
+// } else if (eta <= 29) {
+//     alert("pischello")
+// } else if (eta <= 60) {
+//     alert("ti ricordi myspace?")
+// } if (eta > 60) {
+//     alert("come sai usare un computer?")
+// }

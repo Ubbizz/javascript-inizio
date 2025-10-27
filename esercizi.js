@@ -18,7 +18,7 @@
 // const n1Converted = Number(numberOne);
 // const n2Converted = Number(numberTwo);
 
-// const result = n1Converted**n2Converted; 
+// const result = n1Converted**n2Converted;
 // alert("Il risultato è " + result);
 
 
@@ -86,7 +86,7 @@
 //ESERCIZI IN AUTONOMIA GUARDALI SULLA REPO DEL PROF
 
 //* 22/10 Leggiti il primo e il secondo capitolo di Eloquent Javascript, in fondo al secondo capitolo ci sono 3 esercizi, falli
-//* ripeti esercizi 6 e 7 con while o dowhile 
+//* ripeti esercizi 6 e 7 con while o dowhile
 //* 8) usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai multipli di 7
 //* 9) usando un ciclo logga i numeri da 1 a 100 mettendo un asterisco vicino ai quadrati perfetti
 //* 10) chiedi all'utente un numero (positivo) di partenza e poi logga tutti i numeri dal numero dato fino a 0
@@ -95,6 +95,7 @@
 
 
 // 16) (27/10) Scrivere una funzione che mi dice se un numero è pari
+
 
 // function checkEven(inputNumber){
 //     const isEven = inputNumber % 2 === 0;
@@ -107,6 +108,54 @@
 // console.log(res1);
 // const res2 = checkEvenLambda(21);
 // console.log(res2);
+
+
+// 17) scrivere una funzione che moltiplichi una stringa per un numero
+// es: se inserisco "cacca" e 3, l'output sarà "caccacaccacacca"
+
+
+// function multiplyString(inputString, multiplier) {
+
+//     let multipliedString = "";
+
+//     for (let i = 0; i < multiplier; i++) {
+//         multipliedString += inputString;
+//     }
+
+//     return multipliedString;
+// }
+
+// const res3 = multiplyString("cacca", 100);
+// console.log(res3);
+
+// //ver con lambda
+
+// const multiplyStringLambda = (inputString, multiplier) => inputString.repeat(multiplier);
+
+// const res4 = multiplyStringLambda("schifo", 100);
+
+// console.log(res4);
+
+
+//18) Scrivi una funzione che dato un numero mi dice se è intero oppure no
+
+
+// function checkInteger(n) {
+//     const isInteger = n % 1 === 0;
+//     return isInteger;
+// }
+
+
+// const checkIntegerLambda = n => n % 1 === 0; //controlla se un numero è intero
+
+// const res5 = checkIntegerLambda(0.5)
+// console.log(res5);
+
+
+//19) Scrivere una funzione che dati in input due numeri ritorni il maggiore
+//20) Funzione che date in input due stringhe ritorni la più corta
+//21) Scrivere una funzione che data in input una stringa ritorni la sua iniziale;
+//22) Scrivere una funzione una stringa e un numero, logghi la stringa tante volte quante il numero dato
 
 
 

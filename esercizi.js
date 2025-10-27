@@ -94,6 +94,21 @@
 //* 12) chiedi all'utente quanti anni ha e digli quante ore ha gia' vissuto
 
 
+// 16) (27/10) Scrivere una funzione che mi dice se un numero è pari
+
+// function checkEven(inputNumber){
+//     const isEven = inputNumber % 2 === 0;
+//     return isEven;
+// }
+
+// const checkEvenLambda = inputNumber => inputNumber % 2 === 0; //notazione più corta se ci son più input mettili (num1, num2)
+
+// const res1 = checkEvenLambda(22);
+// console.log(res1);
+// const res2 = checkEvenLambda(21);
+// console.log(res2);
+
+
 
 
 //sito fiero: javascript.info

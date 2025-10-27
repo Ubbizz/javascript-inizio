@@ -153,11 +153,54 @@
 
 
 //19) Scrivere una funzione che dati in input due numeri ritorni il maggiore
+
+
+// const num1 = 10;
+// const num2 = 9;
+
+// function higherNumber(num1, num2) {
+//     return Math.max(num1, num2);
+// }
+
+// console.log(higherNumber(num1, num2));
+
+
 //20) Funzione che date in input due stringhe ritorni la più corta
+
+
+// const str1 = "Ciaoooo";
+// const str2 = "Ciaone";
+
+// function piuCorta(str1, str2) {
+//   return (str1.length < str2.length) ? str1 : str2; // ? operatore ternario, funge da else if
+// }
+
+// console.log(piuCorta(str1, str2));
+
+
 //21) Scrivere una funzione che data in input una stringa ritorni la sua iniziale;
-//22) Scrivere una funzione una stringa e un numero, logghi la stringa tante volte quante il numero dato
 
 
+// const str = "Uella"
+
+// function iniziale(str) {
+//   return str[0]; //0 riporta il primo carattere, 1 il secondo etc.
+// }
+
+// console.log(iniziale(str));
+
+
+//22) Scrivere una funzione una stringa e un numero, loggando la stringa tante volte quante il numero dato
+
+
+// const str = "papparappaaaa "
+// const num = 5
+
+// function ripetiStringa(str, num) {
+//   console.log(str.repeat(num));
+// }
+
+// ripetiStringa(str, num);
 
 
 //sito fiero: javascript.info

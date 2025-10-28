@@ -186,19 +186,77 @@
 // fact(n) = n * fact(n-1);
 
 
-function fact(n) {
+// function fact(n) {
 
-    if (n === 0) {
-        return 1;
-    } else {
-        return n * fact(n - 1);
-    }
+//     if (n === 0) {
+//         return 1;
+//     } else {
+//         return n * fact(n - 1);
+//     }
 
-}
+// }
 
-console.log(fact(0));
-console.log(fact(1));
-console.log(fact(5));
+// console.log(fact(0));
+// console.log(fact(1));
+// console.log(fact(5));
+
+
+// function isEven(n) {
+//     if (n === 0) {
+//         return true;
+//     } else if (n === 1){
+//         return false;
+//     } else {
+//         return isEven(n - 2);
+//     }
+// }
+
+// console.log(isEven(5));
+// console.log(isEven(6));
+
+
+// function isEven(n) { // funzioni che fan ricursione riferendosi l'una con l'altra (inutile?)
+//     if (n === 0) {
+//         return true;
+//     } else {
+//     return isOdd(n - 1)
+//     }
+// }
+
+// function isOdd(n) {
+//     if (n === 1) {
+//         return false;
+//     } else {
+//         return isEven(n - 1)
+//     }
+// }
+
+// console.log(isEven(3));
+// console.log(isOdd(3)); //LIBRO: The Little Schemer: libro sulle ricursioni
+
+//La ricorsione (per lo meno in js) occupa un sacco di memoria dunque usala con un criterio
+
+
+//////////////
+// se ci sono rimuovere spazi prima e dopo*
+// aggiungere la stringa pippo in fondo*
+// mettere tutto maiuscolo*
+// ripeterla per il numero di volte del moltiplicatore*
+// aggiungergli in fondo la sua lunghezza*
+// rimuovere tutte le p
+
+//ho sonnoooooooooooooooooooooooooooooo
+
+// copiala dalla repo del prof
+
+
+
+
+
+
+
+
+
 
 
 

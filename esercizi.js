@@ -207,3 +207,8 @@
 // repeatString(str, num);
 
 
+//23) 28/10 esercizi guardati esercizi capitolo funzioni, fai il 3
+//24) guardateli dalla repo del prof
+
+
+

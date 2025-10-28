@@ -213,26 +213,134 @@
 //24) Inversione di un numero
 //Scrivi una funzione invertiNumero che prenda un numero come parametro e restituisca il numero con le cifre invertite (es. 123 → 321).
 
+
+// function invertiNumero(numero){
+
+//     const numeroStringa = numero.toString();
+
+//     const numeroInvertitoStringa = numeroStringa.split("").reverse().join(""); // "split" separa ogni cifra "reverse" ne inverte l'ordine "join" ricompone la stringa
+
+//     const numeroInvertito = parseInt(numeroInvertitoStringa); //parseInt converte di nuovo in numero
+
+//     return numeroInvertito;
+// }
+
+// console.log(invertiNumero(123)); //chiedi perchè non funziona se metto es: 4500
+
+
 //25) Tabellina
 //Scrivi una funzione tabellina che prenda un numero come parametro e stampi in console la tabellina di quel numero fino a 10.
+
+
+// function tabellina(numero) {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`${numero} x ${i} = ${numero * i}`); //${} serve per inserire variabili o espressioni dentro una stringa
+//   }
+// }
+
+// tabellina(7);
+
+
 
 //26) Fibonacci
 //Scrivi una funzione fibonacci che prenda un numero N come parametro e restituisca l’N-esimo numero della sequenza di Fibonacci.
 
+
+// function fibonacci(N) {
+//   if (N <= 0) return 0;
+//   if (N === 1) return 1;
+
+//   let a = 0, b = 1;
+//   for (let i = 2; i <= N; i++) { 
+//     let temp = a + b;
+//     a = b;
+//     b = temp;
+//   }
+//   return b; // Ogni numero è la somma dei due precedenti:
+// }
+
+
+// console.log(fibonacci(0)); // 0
+// console.log(fibonacci(1)); // 1
+// console.log(fibonacci(6)); // 8  (sequenza: 0, 1, 1, 2, 3, 5, 8)
+
+
 //27)  Conteggio vocali
 //Scrivi una funzione contaVocali che prenda una stringa come parametro e restituisca il numero di vocali presenti.
+
+
+// function contaVocali(str) {
+  
+//   const vocali = 'aeiouAEIOU';
+//   let conteggio = 0;
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (vocali.includes(str[i])) {
+//       conteggio++;
+//     }
+//   }
+
+//   return conteggio;
+// }
+
+
+// console.log(contaVocali("Ciao mondo")); 
+
 
 //28) Sconto
 //Scrivi una funzione applicaSconto che prenda due numeri come parametri (prezzo e percentuale di sconto) e restituisca il prezzo scontato.
 
+
+// function applicaSconto(prezzo, sconto) {
+//   const prezzoScontato = prezzo - (prezzo * sconto / 100);
+//   return prezzoScontato;
+// }
+
+// console.log(applicaSconto(100, 20)); // Output: 80
+
+
 //29) Conversione gradi
 //Scrivi una funzione convertiGradi che prenda un numero come parametro (gradi Celsius) e restituisca la conversione in Fahrenheit
 
+
+// function convertiGradi(celsius) {
+//   const fahrenheit = (celsius * 9 / 5) + 32;
+//   return fahrenheit;
+// }
+
+// console.log(convertiGradi(0));   // Output: 32
+// console.log(convertiGradi(25));  // Output: 77
+// console.log(convertiGradi(-10)); // Output: 14
+
+
 //30 verifica password
-// scrivi una funzione verificaPassword che prenda una stringa e restituisca true se:
-// almeno 8 caratteri
-// contiene almeno una maiuscola
-// almeno un carattere speciale tra questi "!#@$"
-// non deve contenere la parola cacca
+// - scrivi una funzione verificaPassword che prenda una stringa e restituisca true se:
+// - almeno 8 caratteri
+// - contiene almeno una maiuscola
+// - almeno un carattere speciale tra questi "!#@$"
+// - non deve contenere la parola cacca
+
+
+// function verificaPassword(password) {
+//   // Controlla lunghezza minima
+//   if (password.length < 8) return false;
+
+//   const haMaiuscola = /[A-Z]/.test(password); // "/[A-Z]/.test controlla la presenza di una maiuscola"
+
+//   const haSpeciale = /[!#@$]/.test(password); //stesso di sopra coi caratteri speciali
+
+//   // Controlla che NON contenga la parola "cazzo" (in qualsiasi combinazione di maiuscole/minuscole)
+//   const contieneCazzo = /cazzo/i.test(password); // "/cazzo/i" sta per case insensitive
+
+//   // Tutte le condizioni devono essere vere (tranne l'ultima)
+//   return haMaiuscola && haSpeciale && !contieneCazzo;
+// }
+
+// console.log(verificaPassword("Ciao@2024"));     // true
+// console.log(verificaPassword("ciao@2024"));     // false
+// console.log(verificaPassword("Ciao2024"));      // false
+// console.log(verificaPassword("Cazzo@123"));     // false
+// console.log(verificaPassword("Abc!defg"));      // true
+
 
 

@@ -333,7 +333,7 @@
 //   const contieneCazzo = /cazzo/i.test(password); // "/cazzo/i" sta per case insensitive
 
 //   // Tutte le condizioni devono essere vere (tranne l'ultima)
-//   return haMaiuscola && haSpeciale && !contieneCazzo;
+//   return haMaiuscola && haSpeciale && !contieneCazzo; //! operatore di negazione ricorda gli operatoriiiiiiiiiiii
 // }
 
 // console.log(verificaPassword("Ciao@2024"));     // true

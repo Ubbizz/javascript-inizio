@@ -1,3 +1,7 @@
+//sito fiero: javascript.info
+//libro Eloquent Javascript
+
+
 //1) chiedete all'utente il nome e fategli gli auguri di compleanno
 //2) chiedete all'utente la base e l'esponente e calcolate la potenza
 //3) chiedete all'utente un numero e ditegli se è pari o dispari (operatore modulo)
@@ -158,11 +162,11 @@
 // const num1 = 10;
 // const num2 = 9;
 
-// function higherNumber(num1, num2) {
+// function findMax(num1, num2) {
 //     return Math.max(num1, num2);
 // }
 
-// console.log(higherNumber(num1, num2));
+// console.log(findMax(num1, num2));
 
 
 //20) Funzione che date in input due stringhe ritorni la più corta
@@ -171,11 +175,11 @@
 // const str1 = "Ciaoooo";
 // const str2 = "Ciaone";
 
-// function piuCorta(str1, str2) {
-//   return (str1.length < str2.length) ? str1 : str2; // ? operatore ternario, funge da else if
+// function shorter(str1, str2) {
+//   return (str1.length < str2.length) ? str1 : str2; // ? operatore ternario, funge da if else
 // }
 
-// console.log(piuCorta(str1, str2));
+// console.log(shorter(str1, str2));
 
 
 //21) Scrivere una funzione che data in input una stringa ritorni la sua iniziale;
@@ -183,11 +187,11 @@
 
 // const str = "Uella"
 
-// function iniziale(str) {
+// function firstLetter(str) {
 //   return str[0]; //0 riporta il primo carattere, 1 il secondo etc.
 // }
 
-// console.log(iniziale(str));
+// console.log(firstLetter(str));
 
 
 //22) Scrivere una funzione una stringa e un numero, loggando la stringa tante volte quante il numero dato
@@ -196,12 +200,10 @@
 // const str = "papparappaaaa "
 // const num = 5
 
-// function ripetiStringa(str, num) {
+// function repeatString(str, num) {
 //   console.log(str.repeat(num));
 // }
 
-// ripetiStringa(str, num);
+// repeatString(str, num);
 
 
-//sito fiero: javascript.info
-//libro Eloquent Javascript

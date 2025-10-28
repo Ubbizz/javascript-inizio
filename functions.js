@@ -238,16 +238,83 @@
 
 
 //////////////
-// se ci sono rimuovere spazi prima e dopo*
-// aggiungere la stringa pippo in fondo*
-// mettere tutto maiuscolo*
-// ripeterla per il numero di volte del moltiplicatore*
-// aggiungergli in fondo la sua lunghezza*
-// rimuovere tutte le p
+///////
+//1) se ci sono rimuovere gli spazi prima e dopo*
+//2) aggiungere la stringa pippo in fondo*
+//3) mettere tutto maiuscolo
+//4) ripeterla per il numero di volte del moltiplicatore
+//5) aggiungergli in fondo la sua lunghezza
+//6) rimuovere tutte le p
 
-//ho sonnoooooooooooooooooooooooooooooo
 
-// copiala dalla repo del prof
+// function removePfromString(str){
+
+//     let strWithoutP = '';
+
+//     for (let i = 0; i < str.length; i++) {
+        
+//         const char = str.charAt(i);
+
+//         if (char !== 'P') {
+//             strWithoutP += char;
+//         }
+        
+//     }
+
+//     return strWithoutP;
+// }
+
+// function addPippoToString(str){
+
+//     const stringWithPippo = str + 'pippo';
+
+//     return stringWithPippo;
+// }
+
+// function addLengthToString(str){
+
+//     const stringWithLength = str + str.length;
+
+//     return stringWithLength;
+// }
+
+
+// function strangeStringFunction(str, multiplier){
+    
+//     const strWithoutSpaces = str.trim();
+
+//     // const strWithPippo = strWithoutSpaces + 'pippo';
+
+//     const strWithPippo = addPippoToString(strWithoutSpaces)
+
+//     const strUpper = strWithPippo.toUpperCase();
+
+//     const strMultiplied = strUpper.repeat(multiplier);
+
+//     // const strWithLength = strMultiplied + strMultiplied.length;
+
+//     const strWithLength = addLengthToString(strMultiplied)
+
+//     const stringWithoutP = removePfromString(strWithLength);
+
+//     // let strWithoutP = '';
+
+//     // for (let i = 0; i < strWithLength.length; i++) {
+        
+//     //     const char = strWithLength.charAt(i);
+
+//     //     if (char !== 'P') {
+//     //         strWithoutP += char;
+//     //     }
+        
+//     // }
+    
+//     return stringWithoutP;
+
+// }
+
+
+// strangeStringFunction('  leonardo bullo!  ', 4)
 
 
 

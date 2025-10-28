@@ -206,9 +206,33 @@
 
 // repeatString(str, num);
 
+//23) You can get the Nth character, or letter, from a string by writing [N] after the string (for example, string[2]). The resulting value will be a string containing only one character (for example, "b"). The first character has position 0, which causes the last one to be found at position string.length - 1. In other words, a two-character string has length 2, and its characters have positions 0 and 1.
+//Write a function called countBs that takes a string as its only argument and returns a number that indicates how many uppercase B characters there are in the string.
+//Next, write a function called countChar that behaves like countBs, except it takes a second argument that indicates the character that is to be counted (rather than counting only uppercase B characters). Rewrite countBs to make use of this new function.
 
-//23) 28/10 esercizi guardati esercizi capitolo funzioni, fai il 3
-//24) guardateli dalla repo del prof
+//24) Inversione di un numero
+//Scrivi una funzione invertiNumero che prenda un numero come parametro e restituisca il numero con le cifre invertite (es. 123 → 321).
 
+//25) Tabellina
+//Scrivi una funzione tabellina che prenda un numero come parametro e stampi in console la tabellina di quel numero fino a 10.
+
+//26) Fibonacci
+//Scrivi una funzione fibonacci che prenda un numero N come parametro e restituisca l’N-esimo numero della sequenza di Fibonacci.
+
+//27)  Conteggio vocali
+//Scrivi una funzione contaVocali che prenda una stringa come parametro e restituisca il numero di vocali presenti.
+
+//28) Sconto
+//Scrivi una funzione applicaSconto che prenda due numeri come parametri (prezzo e percentuale di sconto) e restituisca il prezzo scontato.
+
+//29) Conversione gradi
+//Scrivi una funzione convertiGradi che prenda un numero come parametro (gradi Celsius) e restituisca la conversione in Fahrenheit
+
+//30 verifica password
+// scrivi una funzione verificaPassword che prenda una stringa e restituisca true se:
+// almeno 8 caratteri
+// contiene almeno una maiuscola
+// almeno un carattere speciale tra questi "!#@$"
+// non deve contenere la parola cacca
 
 

@@ -318,7 +318,7 @@
 // - almeno 8 caratteri
 // - contiene almeno una maiuscola
 // - almeno un carattere speciale tra questi "!#@$"
-// - non deve contenere la parola cacca
+// - non deve contenere la parola cazzo
 
 
 // function verificaPassword(password) {

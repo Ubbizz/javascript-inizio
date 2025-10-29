@@ -302,6 +302,32 @@
 // console.log(invertiNumero(123)); //chiedi perchè non funziona se metto es: 4500
 
 
+//// soluzione senza array
+
+
+// function reverseNumber(nbr) {
+
+//     const nbrToString = String(nbr);
+
+//     let reversed = "";
+
+//     for (let i = nbrToString.length - 1 ; i >= 0 ; i--) {
+
+//         const char = nbrToString[i];
+
+//         reversed += char;
+        
+//     }
+
+//     const reversedToNumber = Number(reversed);
+//     return reversedToNumber;
+
+// }
+
+// console.log(reverseNumber(123345));
+
+
+
 //25) Tabellina
 //Scrivi una funzione tabellina che prenda un numero come parametro e stampi in console la tabellina di quel numero fino a 10.
 

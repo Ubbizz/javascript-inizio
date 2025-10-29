@@ -210,6 +210,80 @@
 //Write a function called countBs that takes a string as its only argument and returns a number that indicates how many uppercase B characters there are in the string.
 //Next, write a function called countChar that behaves like countBs, except it takes a second argument that indicates the character that is to be counted (rather than counting only uppercase B characters). Rewrite countBs to make use of this new function.
 
+
+// function countBs(str){
+
+//     let counter = 0;
+
+//     for (let i = 0; i < str.length; i++) {
+        
+//         const selectedChar = str[i];
+//         const lowerChar = selectedChar.toLowerCase();
+
+//         if (selectedChar === "b") {
+//             counter++
+            
+//         }
+        
+//     }
+
+//     return counter;
+// }
+
+// console.log(countBs("BabbbBeo")); // -> 3
+// console.log(countBs("Leonardo")); // -> 0
+
+
+// function countChar(str, char){
+
+//     let counter = 0;
+
+//     for (let i = 0; i < str.length; i++) {
+
+//         const selectedChar = str[i];
+//         const lowerChar = selectedChar.toLowerCase();
+
+//         if (lowerChar === char) {
+//             counter++
+//         }
+//     }
+
+//     return counter
+
+// }
+
+// console.log(countChar("mammamia", "m")); // -> 4
+// console.log(countChar("mammamia", "i")); // -> 1
+
+
+// function countChar(str, char){
+
+//     let counter = 0;
+
+//     for (let i = 0; i < str.length; i++) {
+
+//         const selectedChar = str[i];
+
+//         const selectedLower = selectedChar.toLowerCase();
+//         const charLower = char.toLowerCase();
+
+//         if (selectedLower === charLower) {
+//             counter++
+//         }
+//     }
+
+//     return counter
+
+// }
+
+// console.log(countChar("mammamia", "m")); // -> 4
+// console.log(countChar("mammamia", "i")); // -> 1
+// console.log(countChar("leonardo", "L")); //-> 1
+
+
+///// ce n'è un altra versione casesensitive sulla repo del prof copiala
+
+
 //24) Inversione di un numero
 //Scrivi una funzione invertiNumero che prenda un numero come parametro e restituisca il numero con le cifre invertite (es. 123 → 321).
 
@@ -241,6 +315,15 @@
 // tabellina(7);
 
 
+// function tabellinaEasy(nbr){
+//     for (let i = 1; i < 11; i++) {
+//         console.log(nbr * i);
+//     }
+// }
+
+// tabellinaEasy(3);
+// tabellinaEasy(9);
+
 
 //26) Fibonacci
 //Scrivi una funzione fibonacci che prenda un numero N come parametro e restituisca l’N-esimo numero della sequenza di Fibonacci.
@@ -265,7 +348,7 @@
 // console.log(fibonacci(6)); // 8  (sequenza: 0, 1, 1, 2, 3, 5, 8)
 
 
-//27)  Conteggio vocali
+//27) Conteggio vocali
 //Scrivi una funzione contaVocali che prenda una stringa come parametro e restituisca il numero di vocali presenti.
 
 

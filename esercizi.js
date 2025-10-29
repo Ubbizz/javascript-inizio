@@ -404,6 +404,19 @@
 // console.log(fibonacci(6)); // 8  (sequenza: 0, 1, 1, 2, 3, 5, 8)
 
 
+// function fiboRecursive(pos) {
+    
+//     if (pos === 0) {
+//         return 0;
+//     } else if (pos === 1){
+//         return 1;
+//     } else {
+//         return fiboRecursive(pos - 1) + fiboRecursive(pos - 2);
+//     }
+
+// }
+
+
 //27) Conteggio vocali
 //Scrivi una funzione contaVocali che prenda una stringa come parametro e restituisca il numero di vocali presenti.
 
@@ -460,7 +473,7 @@
 // - non deve contenere la parola cazzo
 
 
-// function verificaPassword(password) {
+// function checkPassword(password) {
 //   // Controlla lunghezza minima
 //   if (password.length < 8) return false;
 
@@ -475,11 +488,44 @@
 //   return haMaiuscola && haSpeciale && !contieneCazzo; //! operatore di negazione ricorda gli operatoriiiiiiiiiiii
 // }
 
-// console.log(verificaPassword("Ciao@2024"));     // true
-// console.log(verificaPassword("ciao@2024"));     // false
-// console.log(verificaPassword("Ciao2024"));      // false
-// console.log(verificaPassword("Cazzo@123"));     // false
-// console.log(verificaPassword("Abc!defg"));      // true
+// console.log(checkPassword("Ciao@2024"));     // true
+// console.log(checkPassword("ciao@2024"));     // false
+// console.log(checkPassword("Ciao2024"));      // false
+// console.log(checkPassword("Cazzo@123"));     // false
+// console.log(checkPassword("Abc!defg"));      // true
+
+
+/////// ESERCIZI 29/10 ////////
+
+// 31) Somma dei numeri fino a n
+// Scrivi una funzione sommaFinoAN(n) che restituisce la somma dei numeri da 1 a n.
+// sommaFinoAN(5) -> 1 + 2 + 3 + 4 + 5 -> 15
+// 32) Conteggio cifre
+// Scrivi una funzione contaCifre(num) che restituisce il numero di cifre di un numero
+// contaCifre(5) -> 1
+// contaCifre(1245) -> 4
+// 33) Somma delle cifre
+// Scrivi una funzione sommaCifre(num) che restituisce la somma delle cifre di un numero
+// sommaCifre(5) -> 5
+// sommaCifre(1245) -> 12
+// 34) Conversione valuta
+// Scrivi una funzione euroToDollaro(euro) che converte un importo in euro in dollari (1 euro = 1.1 dollari).
+// 35) Calcolo area rettangolo
+// Scrivi una funzione areaRettangolo(base, altezza) che restituisce l’area di un rettangolo.
+// 36) Calcolo media
+// Scrivi una funzione media(a, b, c) che restituisce la media di tre numeri.
+// 37) Generatore di password casuale
+// Scrivi una funzione generaPasswordCasuale() che restituisce una password di 8 caratteri usando solo lettere maiuscole e numeri (usa Math.random())
+// 38) Potenza con ciclo
+// Scrivi una funzione potenzaCiclo(base, esponente) che calcola la potenza usando un ciclo.
+// 39) Scrivi un validatore di email con queste regole:
+// -deve contenere una @
+// -deve contenere un punto posizionato dopo la @
+// -le parti di testo prima della @ e tra la @ e il punto devono almeno avere tre lettere
+// -il punto non può essere l'ultimo carattere
+// 40) crea un converitore tra italiano e farfallino(https://it.wikipedia.org/wiki/Alfabeto_farfallino)
+
+
 
 
 

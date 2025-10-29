@@ -681,8 +681,15 @@
 // }
 
 //provando a capirci qualcosa
-// ^ e $ → inizio e fine stringa
 
+// ^ e $ → inizio e fine stringa
+// [A-Za-z0-9._%+-]{3,} → almeno 3 caratteri prima della @
+// @ obbligatoria
+// [A-Za-z0-9.-]{3,} → almeno 3 caratteri tra @ e .
+// \. il punto letterale
+// [A-Za-z]{2,} almeno 2 lettere dopo il punto (per evitare che finisca con un punto o un solo carattere)
+// "/" iniziale e finale per concludere l'espressione?
+// "_%+-" e ".-" non ho idea di che siano, magari chiedi
 
 
 // console.log(emailValidator("abc@xyz.com")); //true

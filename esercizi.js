@@ -369,6 +369,36 @@
 // }
 
 
+// function fibo(pos) {
+
+//     let first = 0;
+//     let second = 1;
+
+//     if (pos === 1) {
+//         return first;
+//     } else if (pos === 2){
+//         return second;
+//     } else if (pos > 2) {
+
+//         let fib;
+//         for (let i = 3; i <= pos; i++) {
+//             fib = first + second;
+//             first = second;
+//             second = fib;  
+//         }
+
+//         return fib;
+
+//     } else {
+//         console.log("ERRORORROROE!!");
+        
+//     }
+    
+// }
+
+// console.log(fibo(7));
+
+
 // console.log(fibonacci(0)); // 0
 // console.log(fibonacci(1)); // 1
 // console.log(fibonacci(6)); // 8  (sequenza: 0, 1, 1, 2, 3, 5, 8)

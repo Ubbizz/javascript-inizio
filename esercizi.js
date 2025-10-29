@@ -497,32 +497,201 @@
 
 /////// ESERCIZI 29/10 ////////
 
+
 // 31) Somma dei numeri fino a n
 // Scrivi una funzione sommaFinoAN(n) che restituisce la somma dei numeri da 1 a n.
 // sommaFinoAN(5) -> 1 + 2 + 3 + 4 + 5 -> 15
+
+
+// function sommaFinoAN(n) {
+//   let somma = 0;
+//   for (let i = 1; i <= n; i++) {
+//     somma += i;
+//   }
+//   return somma;
+// }
+
+//////oppure più efficiente
+
+// function sommaFinoAN(n) {
+//   return (n * (n + 1)) / 2;
+// }
+
+
+// console.log(sommaFinoAN(7));
+
+
 // 32) Conteggio cifre
 // Scrivi una funzione contaCifre(num) che restituisce il numero di cifre di un numero
 // contaCifre(5) -> 1
 // contaCifre(1245) -> 4
+
+
+// function countNumbers(n) {
+
+//     n = Math.abs(n);
+
+// if (n === 0) return 1;
+
+// return n.toString().length;
+// }
+
+// console.log(countNumbers(1234325));
+
+
+
 // 33) Somma delle cifre
 // Scrivi una funzione sommaCifre(num) che restituisce la somma delle cifre di un numero
 // sommaCifre(5) -> 5
 // sommaCifre(1245) -> 12
+
+
+// function sumOfNumbers(n) {
+
+//     num = Math.abs(n);
+
+//     let sum = 0;
+
+//     for (let digit of n.toString()) { //of significa "di" letteralmente si riferisce a n.toString
+//         sum += parseInt(digit); //parseInt converte digit (che è una stringa contenente numeri) in un integer
+//     }
+
+//     return sum;
+// }
+
+// console.log(sumOfNumbers(1984));
+
+
 // 34) Conversione valuta
 // Scrivi una funzione euroToDollaro(euro) che converte un importo in euro in dollari (1 euro = 1.1 dollari).
+
+
+// function eurToUsd(eur) {
+
+//     const exchangeRate = 1.1;
+//     return eur * exchangeRate;
+
+// }
+
+// console.log(eurToUsd(10));
+
+
 // 35) Calcolo area rettangolo
 // Scrivi una funzione areaRettangolo(base, altezza) che restituisce l’area di un rettangolo.
+
+
+// function rectangleArea(base, heigth) {
+   
+//    if (base < 0 || heigth < 0) {
+    
+//     return "base and heigth must be a positive number";
+
+//    }
+
+//     return base * heigth;
+
+// }
+
+// console.log(rectangleArea(10, 3));
+
+
 // 36) Calcolo media
 // Scrivi una funzione media(a, b, c) che restituisce la media di tre numeri.
+
+
+// function media(a, b, c) {
+//     return (a + b + c) / 3;
+// }
+
+// console.log(media(3, 6, 9));
+
+
 // 37) Generatore di password casuale
 // Scrivi una funzione generaPasswordCasuale() che restituisce una password di 8 caratteri usando solo lettere maiuscole e numeri (usa Math.random())
+
+
+// function generateRandomPassword() {
+//   const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+//   let password = '';
+
+//   for (let i = 0; i < 8; i++) {
+//     const randomIndex = Math.floor(Math.random() * characters.length);
+//     password += characters[randomIndex];
+//   }
+
+//   return password;
+// }
+
+// console.log(generateRandomPassword());
+
+
 // 38) Potenza con ciclo
 // Scrivi una funzione potenzaCiclo(base, esponente) che calcola la potenza usando un ciclo.
+
+
+// function potenzaCiclo(base, esponente) {
+//   let result = 1;
+
+//   for (let i = 0; i < esponente; i++) {
+//     result *= base;
+//   }
+
+//   return result;
+// }
+
+// console.log(potenzaCiclo(3, 4));
+
+
 // 39) Scrivi un validatore di email con queste regole:
 // -deve contenere una @
 // -deve contenere un punto posizionato dopo la @
 // -le parti di testo prima della @ e tra la @ e il punto devono almeno avere tre lettere
 // -il punto non può essere l'ultimo carattere
+
+
+// function emailValidator(email) {
+
+//     //deve contenere una @
+//     const posizioneChiocciola = email.indexOf("@"); //.indexOf trova la posizione della chiocciola nella stringa
+//     if (posizioneChiocciola === -1) return false;
+
+//     //controlla se c'è un punto dopo la @
+//     const posizionePunto = email.indexOf(".", posizioneChiocciola);
+//     if (posizionePunto === -1) return false;
+
+//     // Controlla che il punto non sia l'ultimo carattere
+//     if (posizionePunto === email.length - 1) return false;
+
+//      // Testo prima della @
+//     const partePrima = email.substring(0, posizioneChiocciola);
+//     if (partePrima.length < 3) return false;
+
+//     // Testo tra la @ e il punto
+//     const parteDopo = email.substring(posizioneChiocciola + 1, posizionePunto);
+//     if (parteDopo.length < 3) return false;
+
+//     return true;
+// }
+
+
+//con regex perchè fa ridere//
+
+// function emailValidator(email) {
+//   return /^[A-Za-z0-9._%+-]{3,}@[A-Za-z0-9.-]{3,}\.[A-Za-z]{2,}$/.test(email);
+// }
+
+//provando a capirci qualcosa
+// ^ e $ → inizio e fine stringa
+
+
+
+// console.log(emailValidator("abc@xyz.com")); //true
+// console.log(emailValidator("ab@xyz.com")); //false solo due lettere prima della @
+// console.log(emailValidator("abc@xy.com")); //false due lettere dopo la @
+// console.log(emailValidator("abc@xyz.")); //false punto finale
+// console.log(emailValidator("abcxyz.com")); //false manca @
+
+
 // 40) crea un converitore tra italiano e farfallino(https://it.wikipedia.org/wiki/Alfabeto_farfallino)
 
 

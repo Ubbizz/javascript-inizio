@@ -702,6 +702,29 @@
 // 40) crea un converitore tra italiano e farfallino(https://it.wikipedia.org/wiki/Alfabeto_farfallino)
 
 
+// function italianoAFarfallino(testo) {
+  
+//   let risultato = '';
+
+//   for (let char of testo) {
+//     if (/[aeiou]/i.test(char)) {
+//       // Se è vocale, aggiungi "f" + stessa consonante
+//       risultato += char + 'f' + char.toLowerCase();
+//     } else {
+//       // Se è consonante o altro, resta invariata
+//       risultato += char;
+//     }
+//   }
+
+//   return risultato;
+
+// }
+
+
+// console.log(italianoAFarfallino("ciao"));   // Output: "cifiafaofo"
+// console.log(italianoAFarfallino("gatto"));  // Output: "gafattofo"
+// console.log(italianoAFarfallino("farfallino")); // Output: "fafarfafallifinofo
+
 
 
 

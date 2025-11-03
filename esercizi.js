@@ -662,7 +662,7 @@
 //     if (posizionePunto === email.length - 1) return false;
 
 //      // Testo prima della @
-//     const partePrima = email.substring(0, posizioneChiocciola);
+//     const partePrima = email.substring(0, posizioneChiocciola); // The substring() method of String values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied.
 //     if (partePrima.length < 3) return false;
 
 //     // Testo tra la @ e il punto

@@ -720,9 +720,49 @@
 // }
 
 
-// console.log(italianoAFarfallino("ciao"));   // Output: "cifiafaofo"
+// console.log(italianoAFarfallino("ziopera"));   // Output: "zifiofopeferafa"
 // console.log(italianoAFarfallino("gatto"));  // Output: "gafattofo"
 // console.log(italianoAFarfallino("farfallino")); // Output: "fafarfafallifinofo
+
+
+////// ESERCIZI 03/11 ////////
+
+// 41) creare una funzione che dato un array di numeri li eleva tutti al quadrato
+
+
+const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
+
+function squareArray(nbrArray) {
+
+}
+
+console.log(squareArray(pippo)); //-> [1, 4, 16 etc...]
+
+
+// 42) stesso sopra ma eleva al quadrato solo i numeri dispari
+
+
+const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
+
+function squareOddArray(nbrArray) {
+
+}
+
+console.log(squareOddArray(pippo)); //-> [121, 15129 etc]
+
+
+// 43) stesso sopra ma una funzione che moltiplichi per due quelli positivi e divida per due i negativi
+
+
+const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
+
+function multiplyPositiveAndDivideNegative(nbrArray) {
+
+}
+
+console.log(multiplyPositiveAndDivideNegative(pippo)); //-> [2, 4, 8, 112, 156, 22, -61.5 etc]
+
+
 
 
 

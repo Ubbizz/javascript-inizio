@@ -539,7 +539,6 @@
 // console.log(countNumbers(1234325));
 
 
-
 // 33) Somma delle cifre
 // Scrivi una funzione sommaCifre(num) che restituisce la somma delle cifre di un numero
 // sommaCifre(5) -> 5
@@ -548,7 +547,7 @@
 
 // function sumOfNumbers(n) {
 
-//     num = Math.abs(n);
+//     num = Math.abs(n); //ritorna il valore assoluto di un numero
 
 //     let sum = 0;
 
@@ -563,12 +562,12 @@
 
 
 // 34) Conversione valuta
-// Scrivi una funzione euroToDollaro(euro) che converte un importo in euro in dollari (1 euro = 1.1 dollari).
+// Scrivi una funzione euroToDollaro(euro) che converte un importo in euro in dollari (1 euro = 1.15 dollari).
 
 
 // function eurToUsd(eur) {
 
-//     const exchangeRate = 1.1;
+//     const exchangeRate = 1.15;
 //     return eur * exchangeRate;
 
 // }
@@ -615,7 +614,7 @@
 //   let password = '';
 
 //   for (let i = 0; i < 8; i++) {
-//     const randomIndex = Math.floor(Math.random() * characters.length);
+//     const randomIndex = Math.floor(Math.random() * characters.length); // The Math.floor() Floor arrotonda verso il basso. Se può usare anche Math.round (più fiero) o Math.sail (Verso l'alto)
 //     password += characters[randomIndex];
 //   }
 

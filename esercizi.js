@@ -795,10 +795,42 @@
 // Scrivi una funzione trovaMinimo(array) che restituisce il numero più piccolo in un array di numeri.
 
 
+// let nbrArray = [20, 10, 22, 44, 35, 0, -1, 1.5, 100, 20];
+
+// function trovaMinimo(a) {
+
+//     const newArray = []
+//     let nummin = 1000 ;
+
+//     for (let i = 0; i < a.length; i++) {
+
+//         const element = a[i];
+//         if (element < nummin)
+//             nummin  = element;
+        
+//     }
+//     return nummin;
+
+    
+// }
+
+// console.log(trovaMinimo(nbrArray));
+
 
 // 44) Inverti Array con un ciclo
 // Scrivi una funzione invertiArray(array) che restituisce un nuovo array con gli elementi in ordine inverso.
 
+let nbrArray = [20, 10, 22, 44, 35, 0, -1, 1.5, 100, 20];
+
+function invertArr(n){
+    let array= [];
+
+    for(let i = 0; i < n.length; i++){
+         array.push( n[n.length-1-i])[i] ;
+    }
+    return array;
+}
+console.log(invertArr(nbrArray));
 
 
 // 45) Maiuscolo Tutte le Parole

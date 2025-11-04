@@ -730,37 +730,53 @@
 // 41) creare una funzione che dato un array di numeri li eleva tutti al quadrato
 
 
-const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
+// const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
 
-function squareArray(nbrArray) {
+// function squareArray(nbrArray) {
+    
+//     const newArray = [];
 
-}
+//     for (let i = 0; i < nbrArray.length; i++) {
+        
+//         const element = nbrArray[i];
 
-console.log(squareArray(pippo)); //-> [1, 4, 16 etc...]
+//         const doubleElement = element ** 2;
+
+//         newArray.push(doubleElement);
+        
+//     }
+
+//     return newArray;
+
+// }
+
+// console.log(squareArray(pippo)); //-> [1, 4, 16 etc...]
 
 
 // 42) stesso sopra ma eleva al quadrato solo i numeri dispari
 
 
-const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
+// const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
 
-function squareOddArray(nbrArray) {
+// function squareOddArray(nbrArray) {
+        
+//     return newArray;
 
-}
+// }
 
-console.log(squareOddArray(pippo)); //-> [121, 15129 etc]
+// console.log(squareOddArray(pippo)); //-> [121, 15129 etc]
 
 
 // 43) stesso sopra ma una funzione che moltiplichi per due quelli positivi e divida per due i negativi
 
 
-const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
+// const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
 
-function multiplyPositiveAndDivideNegative(nbrArray) {
+// function multiplyPositiveAndDivideNegative(nbrArray) {
 
-}
+// }
 
-console.log(multiplyPositiveAndDivideNegative(pippo)); //-> [2, 4, 8, 112, 156, 22, -61.5 etc]
+// console.log(multiplyPositiveAndDivideNegative(pippo)); //-> [2, 4, 8, 112, 156, 22, -61.5 etc]
 
 
 

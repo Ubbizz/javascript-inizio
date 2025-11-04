@@ -820,17 +820,17 @@
 // 44) Inverti Array con un ciclo
 // Scrivi una funzione invertiArray(array) che restituisce un nuovo array con gli elementi in ordine inverso.
 
-let nbrArray = [20, 10, 22, 44, 35, 0, -1, 1.5, 100, 20];
+// let nbrArray = [20, 10, 22, 44, 35, 0, -1, 1.5, 100, 20];
 
-function invertArr(n){
-    let array= [];
+// function invertArr(arrInvertito){
+//     let array= [];
 
-    for(let i = 0; i < n.length; i++){
-         array.push( n[n.length-1-i])[i] ;
-    }
-    return array;
-}
-console.log(invertArr(nbrArray));
+//     for(let i = 0; i < arrInvertito.length; i++){
+//          array.push( arrInvertito[arrInvertito.length-1-i])[i] ;
+//     }
+//     return array;
+// }
+// console.log(invertArr(nbrArray));
 
 
 // 45) Maiuscolo Tutte le Parole

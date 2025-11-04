@@ -299,47 +299,230 @@ let strings = ["pippo", "pluto", "topolino", "leonardo"];
 //1) scrivi una funzione che somma tutti i numeri di un array di numeri
 
 
-function summAll(nbrArray) {
+// function summAll(nbrArray) {
 
-    let result = 0;
+//     let result = 0;
 
-    for (let i = 0; i < nbrArray.length; i++) {
+//     for (let i = 0; i < nbrArray.length; i++) {
 
-        const element = nbrArray[i];
+//         const element = nbrArray[i];
 
-        result = result + element;
+//         result = result + element;
         
-    }
+//     }
 
-    return result;
+//     return result;
 
-}
+// }
 
-console.log(summAll(numbers));
+// console.log(summAll(numbers));
 
 
 // 2) funzione che calcola la media di un array di numeri
 
 
-function calculateMean(nbrArray) {
+// function calculateMean(nbrArray) {
 
-    let sum = 0;
+//     let sum = 0;
 
-    for (let i = 0; i < nbrArray.length; i++) {
+//     for (let i = 0; i < nbrArray.length; i++) {
 
-        const element = nbrArray[i];
+//         const element = nbrArray[i];
 
-        sum = sum + element;
+//         sum = sum + element;
+        
+//     }
+
+//     const mean = sum / nbrArray.length;
+
+//     return mean;
+
+// }
+
+// console.log(calculateMean(numbers));
+
+
+// 3) funzione che genera una stringa composta dalle iniziali delle stringhe contenute in un array
+
+
+// function concatFirstChar(strArray)  {
+
+//     let newString = "";
+
+//     for (let i = 0; i < strArray.length; i++) {
+
+//         const element = strArray[i];
+
+//         const firstChar = element[0];
+
+//         newString = newString + firstChar;
+        
+//     }
+
+//     return newString;
+// }
+
+// console.log(concatFirstChar(strings));
+
+
+// 4) funzione che restituisce la somma delle lunghezze delle stringhe di un array
+
+
+// function sumLength(strArray) {
+
+//     let sumOfLengths = 0;
+
+//     for (let i = 0; i < strArray.length; i++) {
+
+//         const element = strArray[i];
+
+//         const length = element.length;
+
+//         sumOfLengths = sumOfLengths + length;
+        
+//     }
+
+//     return sumOfLengths;
+    
+// }
+
+// console.log(sumLength(strings));
+
+
+// 5) funzione che restituisce il numero più grande in un array
+
+
+// function findMax(nbrArray) {
+
+//     let max = 0;
+
+//     for (let i = 0; i < nbrArray.length; i++) {
+
+//         const element = nbrArray[i];
+
+//         if (element > max) {
+//             max = element;
+//         }
+        
+//     }
+
+//     return max;
+    
+// }
+
+// console.log(findMax(numbers));
+
+
+
+/////COSTRUTTORE
+
+
+// const pluto = new Array(); // equivale a const pluto = []
+// console.log(pluto);
+
+// const pippo = new Array(3, 5, 8); /// const pippo [3, 5, 8]
+// console.log(pippo);
+
+// const paperino = new Array(10) 
+// console.log(paperino); // da 10 empty slots "undefined"
+
+// for (const element of paperino) {
+//     console.log(paperino); //in pratica inutile usa le quadre
+// }
+
+// indexOf mi da la posizione di un elemento
+
+
+// console.log(numbers.indexOf(100));
+// console.log(numbers.indexOf(999999)); //se l'elemento non esiste restituisce -1
+
+// // includes uguale ma ci dice solo se un contenuto esisto o no (true o false)
+
+
+// console.log(numbers.includes(100)); //truuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+// console.log(numbers.includes(234876367823)); // noooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+// // concat -> unisce due array, creandone uno nuovo
+
+
+// const topolino = ["leonardo", "mattia", "daniel"];
+
+// const paperina = ["evelyn", "salma", "stefania"];
+
+// const gastone = topolino.concat(paperina);
+// console.log(gastone);
+
+
+/////// FUNZIONI MULTI PARAMETRICHE (carino ma lo troverai poco)
+
+// function sumAllParams(...params){ //ci puoi aggiungere quanti parametri vuoi quando vuoi
+    
+//     let result = 0
+
+//     for (let i = 0; i < params.length; i++) {
+//         const element = params[i];
+
+//         result = result + element;
+        
+//     }
+
+//     return result;
+// }
+
+// console.log(sumAllParams(2, 5, 7, 6));
+
+
+////// ARRAY DI ARRAY
+
+
+const superArray = [[1, 2, 3], 
+                    [1, 1, 1], 
+                    [3, 2, 1]];
+
+// console.log(superArray.length); // contiene 3 array
+// console.log(superArray[0]); // 1, 2, 3
+
+const arrayInterno = superArray[0];
+const elemento0dellArrayInterno = arrayInterno[0];
+
+// console.log(elemento0dellArrayInterno); //1, del primo array
+// console.log(superArray[0][0]);
+
+for (let rownumber = 0; rownumber < superArray.length; rownumber++) {
+
+    const row = superArray[rownumber];
+
+    // console.log(row); // da tutti i vari array
+
+    for (let columnNumber = 0; columnNumber < superArray.length; columnNumber++) {
+
+        const cell = row[columnNumber];
+
+        console.log(cell);
         
     }
-
-    const mean = sum / nbrArray.length;
-
-    return mean;
-
+    
 }
 
-console.log(calculateMean(numbers));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

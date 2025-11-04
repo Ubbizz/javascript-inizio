@@ -753,33 +753,80 @@
 // console.log(squareArray(pippo)); //-> [1, 4, 16 etc...]
 
 
-// 42) stesso sopra ma eleva al quadrato solo i numeri dispari /// controlla dal repo del prof poi
+
+//42) creare una funzione che dato un array di numeri moltiplichi per due quelli positivi e divida per due i negativi
+
+// function multiplyPoisitiveAndDivideNegative(nbrArray) {
+
+//         const newArray = [];
 
 
-// const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
+//     for (let i = 0; i < nbrArray.length; i++) {
 
-// function squareOddArray(nbrArray) {
+//         const element = nbrArray[i];
+
+
+//         if (element >= 0) {
+
+//             const multiplied = element * 2;
+
+//             newArray.push(multiplied);
+
+//         } else {
+
+//             const divided = element / 2;
+
+//             newArray.push(divided);
+
+//         }
+
         
+//     }
+
 //     return newArray;
-
+    
 // }
 
-// console.log(squareOddArray(pippo)); //-> [121, 15129 etc]
+// console.log(multiplyPoisitiveAndDivideNegative(pippo)) //-> [2, 4, 8, 112, 156, 22, -61.5, 6, -11.5, 4, 44, 8];
 
 
-// 43) stesso sopra ma una funzione che moltiplichi per due quelli positivi e divida per due i negativi // stesso
+
+// 43) Trova il Minimo
+// Scrivi una funzione trovaMinimo(array) che restituisce il numero più piccolo in un array di numeri.
 
 
-// const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
 
-// function multiplyPositiveAndDivideNegative(nbrArray) {
-
-// }
-
-// console.log(multiplyPositiveAndDivideNegative(pippo)); //-> [2, 4, 8, 112, 156, 22, -61.5 etc]
+// 44) Inverti Array con un ciclo
+// Scrivi una funzione invertiArray(array) che restituisce un nuovo array con gli elementi in ordine inverso.
 
 
-///ESERCIZI 04/11 GUARDA REPO PROF
+
+// 45) Maiuscolo Tutte le Parole
+// Scrivi una funzione maiuscoloTutto(array) che restituisce un nuovo array con tutte le stringhe in maiuscolo.
+
+
+
+// 46) Somma Righe Matrice
+// Scrivi una funzione sommaRighe(matrice) che restituisce un array con la somma degli elementi di ogni riga.
+
+
+
+// 47) Conta Occorrenze
+// Scrivi una funzione contaOccorrenze(array, elemento) che conta quante volte un elemento appare in un array
+
+
+
+// 48) Filtra indice pari
+// Scrivi una funzione filtraIndicePari(array) che tiene tutti gli elementi in posizione dispari
+
+
+
+// 49) Somma pari 
+// Scrivi una funzione sommaPari(array) che somma tutti i numeri pari
+
+
+// 50) trova lunghezze
+// Scrivi una funzione trovaLunghezzeParola(array) che restituisce un array delle lunghezze(numeri) delle stringhe che compongono l'array in input
 
 
 

@@ -204,6 +204,95 @@ let strings = ["pippo", "pluto", "topolino", "leonardo"];
 // console.log(arrayToUppercaseWordsStartingWithP(strings));
 
 
+//// FILTER //// decide quali degli elementi dell'array tenere (sempre un pattern)
+
+
+// funzione che rimuove dagli array tutti i dispari
+
+
+function keepEvenNumbers(nbrArray) {
+
+    const newArray = [];
+
+    for (let i = 0; i < nbrArray.length; i++) {
+
+        const element = nbrArray[i];
+
+        if (element % 2 === 0) {
+
+            newArray.push(element);
+
+        }
+        
+    }
+
+    return newArray;
+    
+}
+
+console.log(keepEvenNumbers(numbers));
+
+
+// funzione che rimuove tutte le stringhe che iniziano per p
+
+
+function removeStartingWithP(strArray) {
+
+    const newArray = [];
+
+    for (let i = 0; i < strArray.length; i++) {
+
+        const element = strArray[i];
+
+        const firstChar = element[0];
+
+        const firstCharLower = firstChar.toLowerCase();
+
+        if (firstChar !== "p") {
+
+            newArray.push(element);
+
+        }
+    
+    }
+
+    return newArray;
+}
+
+strings = removeStartingWithP(strings);
+
+console.log(removeStartingWithP(strings));
+
+
+// funzione che toglie i numeri negativi 
+
+
+function keepPositiveNumbers(nbrArray) {
+
+    const newArray = [];
+
+    for (let i = 0; i < nbrArray.length; i++) {
+
+        const element = nbrArray[i];
+
+        if (element >= 0) {
+
+            newArray.push(element);
+
+        }
+        
+    }
+
+    return newArray;
+    
+}
+
+console.log(keepPositiveNumbers(numbers));
+
+
+
+
+
 
 
 

@@ -740,9 +740,9 @@
         
 //         const element = nbrArray[i];
 
-//         const doubleElement = element ** 2;
+//         const squareElement = element ** 2;
 
-//         newArray.push(doubleElement);
+//         newArray.push(squareElement);
         
 //     }
 
@@ -753,7 +753,7 @@
 // console.log(squareArray(pippo)); //-> [1, 4, 16 etc...]
 
 
-// 42) stesso sopra ma eleva al quadrato solo i numeri dispari
+// 42) stesso sopra ma eleva al quadrato solo i numeri dispari /// controlla dal repo del prof poi
 
 
 // const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];
@@ -767,7 +767,7 @@
 // console.log(squareOddArray(pippo)); //-> [121, 15129 etc]
 
 
-// 43) stesso sopra ma una funzione che moltiplichi per due quelli positivi e divida per due i negativi
+// 43) stesso sopra ma una funzione che moltiplichi per due quelli positivi e divida per due i negativi // stesso
 
 
 // const pippo = [1, 2, 4, 56, 78, 11, -123, 3, -23, 2, 22, 4];

@@ -475,34 +475,34 @@ let strings = ["pippo", "pluto", "topolino", "leonardo"];
 ////// ARRAY DI ARRAY (huh??????????????????)
 
 
-const superArray = [[1, 2, 3], 
-                    [1, 1, 1], 
-                    [3, 2, 1]];
+// const superArray = [[1, 2, 3], 
+//                     [1, 1, 1], 
+//                     [3, 2, 1]];
 
-// console.log(superArray.length); // contiene 3 array
-// console.log(superArray[0]); // 1, 2, 3
+// // console.log(superArray.length); // contiene 3 array
+// // console.log(superArray[0]); // 1, 2, 3
 
-const arrayInterno = superArray[0];
-const elemento0dellArrayInterno = arrayInterno[0];
+// const arrayInterno = superArray[0];
+// const elemento0dellArrayInterno = arrayInterno[0];
 
-// console.log(elemento0dellArrayInterno); //1, del primo array
-// console.log(superArray[0][0]);
+// // console.log(elemento0dellArrayInterno); //1, del primo array
+// // console.log(superArray[0][0]);
 
-for (let rownumber = 0; rownumber < superArray.length; rownumber++) {
+// for (let rownumber = 0; rownumber < superArray.length; rownumber++) {
 
-    const row = superArray[rownumber];
+//     const row = superArray[rownumber];
 
-    // console.log(row); // da tutti i vari array
+//     // console.log(row); // da tutti i vari array
 
-    for (let columnNumber = 0; columnNumber < superArray.length; columnNumber++) {
+//     for (let columnNumber = 0; columnNumber < superArray.length; columnNumber++) {
 
-        const cell = row[columnNumber];
+//         const cell = row[columnNumber];
 
-        console.log(cell);
+//         console.log(cell);
         
-    }
+//     }
     
-}
+// }
 
 
 

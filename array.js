@@ -204,90 +204,142 @@ let strings = ["pippo", "pluto", "topolino", "leonardo"];
 // console.log(arrayToUppercaseWordsStartingWithP(strings));
 
 
-//// FILTER //// decide quali degli elementi dell'array tenere (sempre un pattern)
+
+
+////// FILTER //// decide quali degli elementi dell'array tenere (sempre un pattern)
 
 
 // funzione che rimuove dagli array tutti i dispari
 
 
-function keepEvenNumbers(nbrArray) {
+// function keepEvenNumbers(nbrArray) {
 
-    const newArray = [];
+//     const newArray = [];
+
+//     for (let i = 0; i < nbrArray.length; i++) {
+
+//         const element = nbrArray[i];
+
+//         if (element % 2 === 0) {
+
+//             newArray.push(element);
+
+//         }
+        
+//     }
+
+//     return newArray;
+    
+// }
+
+// console.log(keepEvenNumbers(numbers));
+
+
+// // funzione che rimuove tutte le stringhe che iniziano per p
+
+
+// function removeStartingWithP(strArray) {
+
+//     const newArray = [];
+
+//     for (let i = 0; i < strArray.length; i++) {
+
+//         const element = strArray[i];
+
+//         const firstChar = element[0];
+
+//         const firstCharLower = firstChar.toLowerCase();
+
+//         if (firstChar !== "p") {
+
+//             newArray.push(element);
+
+//         }
+    
+//     }
+
+//     return newArray;
+// }
+
+// strings = removeStartingWithP(strings);
+
+// console.log(removeStartingWithP(strings));
+
+
+// // funzione che toglie i numeri negativi 
+
+
+// function keepPositiveNumbers(nbrArray) {
+
+//     const newArray = [];
+
+//     for (let i = 0; i < nbrArray.length; i++) {
+
+//         const element = nbrArray[i];
+
+//         if (element >= 0) {
+
+//             newArray.push(element);
+
+//         }
+        
+//     }
+
+//     return newArray;
+    
+// }
+
+// console.log(keepPositiveNumbers(numbers));
+
+
+
+////// SEMPRE PATTERN ////// REDUCE -> trasforma l'array producendo un risultato che dipende dai componenti dell'array
+
+
+//1) scrivi una funzione che somma tutti i numeri di un array di numeri
+
+
+function summAll(nbrArray) {
+
+    let result = 0;
 
     for (let i = 0; i < nbrArray.length; i++) {
 
         const element = nbrArray[i];
 
-        if (element % 2 === 0) {
-
-            newArray.push(element);
-
-        }
+        result = result + element;
         
     }
 
-    return newArray;
-    
+    return result;
+
 }
 
-console.log(keepEvenNumbers(numbers));
+console.log(summAll(numbers));
 
 
-// funzione che rimuove tutte le stringhe che iniziano per p
+// 2) funzione che calcola la media di un array di numeri
 
 
-function removeStartingWithP(strArray) {
+function calculateMean(nbrArray) {
 
-    const newArray = [];
-
-    for (let i = 0; i < strArray.length; i++) {
-
-        const element = strArray[i];
-
-        const firstChar = element[0];
-
-        const firstCharLower = firstChar.toLowerCase();
-
-        if (firstChar !== "p") {
-
-            newArray.push(element);
-
-        }
-    
-    }
-
-    return newArray;
-}
-
-strings = removeStartingWithP(strings);
-
-console.log(removeStartingWithP(strings));
-
-
-// funzione che toglie i numeri negativi 
-
-
-function keepPositiveNumbers(nbrArray) {
-
-    const newArray = [];
+    let sum = 0;
 
     for (let i = 0; i < nbrArray.length; i++) {
 
         const element = nbrArray[i];
 
-        if (element >= 0) {
-
-            newArray.push(element);
-
-        }
+        sum = sum + element;
         
     }
 
-    return newArray;
-    
+    const mean = sum / nbrArray.length;
+
+    return mean;
+
 }
 
-console.log(keepPositiveNumbers(numbers));
+console.log(calculateMean(numbers));
 
 
 

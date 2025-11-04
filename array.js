@@ -472,7 +472,7 @@ let strings = ["pippo", "pluto", "topolino", "leonardo"];
 // console.log(sumAllParams(2, 5, 7, 6));
 
 
-////// ARRAY DI ARRAY
+////// ARRAY DI ARRAY (huh??????????????????)
 
 
 const superArray = [[1, 2, 3], 

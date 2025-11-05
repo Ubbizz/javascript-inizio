@@ -790,6 +790,8 @@
 // console.log(multiplyPoisitiveAndDivideNegative(pippo)) //-> [2, 4, 8, 112, 156, 22, -61.5, 6, -11.5, 4, 44, 8];
 
 
+////////ESERCIZI 04/11 //////////////// guarda poi su repo prof
+
 
 // 43) Trova il Minimo
 // Scrivi una funzione trovaMinimo(array) che restituisce il numero più piccolo in un array di numeri.
@@ -820,22 +822,30 @@
 // 44) Inverti Array con un ciclo
 // Scrivi una funzione invertiArray(array) che restituisce un nuovo array con gli elementi in ordine inverso.
 
+
 // let nbrArray = [20, 10, 22, 44, 35, 0, -1, 1.5, 100, 20];
 
 // function invertArr(arrInvertito){
+    
 //     let array= [];
 
-//     for(let i = 0; i < arrInvertito.length; i++){
-//          array.push( arrInvertito[arrInvertito.length-1-i])[i] ;
+//     for(let i = 0; i < arrInvertito.length; i++) {
+
+//          array.push (arrInvertito[arrInvertito.length-1-i]);
+
 //     }
+
 //     return array;
 // }
+
 // console.log(invertArr(nbrArray));
 
 
-// 45) Maiuscolo Tutte le Parole
+// 45) Maiuscolo Tutte le Parole 
 // Scrivi una funzione maiuscoloTutto(array) che restituisce un nuovo array con tutte le stringhe in maiuscolo.
 
+
+// let strings = ["pippo", "pluto", "topolino", "leonardo"];
 
 
 // 46) Somma Righe Matrice
@@ -855,6 +865,7 @@
 
 // 49) Somma pari 
 // Scrivi una funzione sommaPari(array) che somma tutti i numeri pari
+
 
 
 // 50) trova lunghezze
